@@ -7,10 +7,12 @@ import javax.persistence.Persistence;
 public class ArtikelAnlegen {
 
 	public static void main(String[] args) {
+// under construction....
+/*
 		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("wws-2-jpa");
 		EntityManager entitymanager = emfactory.createEntityManager();
 		entitymanager.getTransaction().begin();
-/*
+
 		TKunde kunde = new TKunde();
 		kunde.setCustomerId(5);
 		kunde.setCustomermatchcode("blubb");
@@ -18,8 +20,9 @@ public class ArtikelAnlegen {
 		kunde.setLastName("Hirsch");
 		entitymanager.persist(kunde);
 		entitymanager.getTransaction().commit();	
-*/
+
 		entitymanager.close();
 		emfactory.close();
 	}
+*/
 }

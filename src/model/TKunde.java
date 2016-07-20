@@ -2,8 +2,9 @@ package model;
 
 import java.io.Serializable;
 import javax.persistence.*;
-import java.sql.Timestamp;
+import java.util.Date;
 
+// test123
 
 /**
  * The persistent class for the t_kunde database table.
@@ -27,8 +28,9 @@ public class TKunde implements Serializable {
 	@Column(name="last_name")
 	private String lastName;
 
+	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name="last_update")
-	private Timestamp lastUpdate;
+	private Date lastUpdate;
 
 	public TKunde() {
 	}
@@ -65,11 +67,11 @@ public class TKunde implements Serializable {
 		this.lastName = lastName;
 	}
 
-	public Timestamp getLastUpdate() {
+	public Date getLastUpdate() {
 		return this.lastUpdate;
 	}
 
-	public void setLastUpdate(Timestamp lastUpdate) {
+	public void setLastUpdate(Date lastUpdate) {
 		this.lastUpdate = lastUpdate;
 	}
 

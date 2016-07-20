@@ -12,10 +12,10 @@ public class KundeAnlegen {
 		entityManager.getTransaction().begin();
 		
 		TKunde kunde = new TKunde();
-		kunde.setCustomerId(5);
-		kunde.setCustomermatchcode("blubb");
-		kunde.setFirstName("Hugo");
-		kunde.setLastName("Hirsch");
+		kunde.setCustomerId(6);
+		kunde.setCustomermatchcode("matchcode");
+		kunde.setFirstName("firstname");
+		kunde.setLastName("lastname");
 		
 		Timestamp tstamp = new Timestamp(System.currentTimeMillis()); 
 		kunde.setLastUpdate(tstamp);

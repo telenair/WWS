@@ -17,3 +17,5 @@ context menu (right click), and choosing Team, Remote, and
 Bei mir ist für beide Fälle Https gewählt, 
 aber ich meine wir hätten das auch schon gecheckt. 
 Schaut trotzdem bitte noch mal nach.
+
+Das wird jetzt der test vom anderen Rechner und dann wird geschlafen!!!

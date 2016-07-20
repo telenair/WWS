@@ -1,9 +1,19 @@
 Um nicht wieder alles zu versauen mach ich meinen Test mal hier.
 Ich habe nicht die leiseste Ahnung warum das bei mir klappt und bei euch nicht. 
 
-
+If you ever run into a git-receive-pack not permitted error when using Git,
+chances are that it's a configuration issue on your end. 
+In my case, I had cloned the repository using via https (which required authentication).
+However, pushing failed with the aforementioned error. 
+This was due to the fact that I was only allowed to push via SSH. 
+Therefore, once I changed the protocol in the configuration for my checkout, 
+all was well again.
 
 Since I use Eclipse (and eGit), it might be handy for some to know that the 
 configuration settings for a Git-cloned project can be accessed via the project's 
 context menu (right click), and choosing Team, Remote, and 
 "Configure Fetch from upstream" or Configure Push to upstream", as applicable.
+
+Bei mir ist für beide Fälle Https gewählt, 
+aber ich meine wir hätten das auch schon gecheckt. 
+Schaut trotzdem bitte noch mal nach.

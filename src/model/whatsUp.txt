@@ -1,3 +1,9 @@
 Um nicht wieder alles zu versauen mach ich meinen Test mal hier.
 Ich habe nicht die leiseste Ahnung warum das bei mir klappt und bei euch nicht. 
 
+
+
+Since I use Eclipse (and eGit), it might be handy for some to know that the 
+configuration settings for a Git-cloned project can be accessed via the project's 
+context menu (right click), and choosing Team, Remote, and 
+"Configure Fetch from upstream" or Configure Push to upstream", as applicable.

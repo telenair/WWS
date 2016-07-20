@@ -9,7 +9,7 @@ public class ArtikelAnlegen {
 	public static void main(String[] args) {
 // under construction....
 /*
- * Just for the test teeest
+ * Just for the test
 		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("wws-2-jpa");
 		EntityManager entitymanager = emfactory.createEntityManager();
 		entitymanager.getTransaction().begin();

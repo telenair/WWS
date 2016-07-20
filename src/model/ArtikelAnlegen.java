@@ -10,6 +10,7 @@ public class ArtikelAnlegen {
 		EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("wws-2-jpa");
 		EntityManager entitymanager = emfactory.createEntityManager();
 		entitymanager.getTransaction().begin();
+		// bliubb
 /*
 		TKunde kunde = new TKunde();
 		kunde.setCustomerId(5);

@@ -7,22 +7,6 @@ import javax.persistence.Persistence;
 public class ArtikelAnlegen {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
-		// under construction....
-		/*
-		 * Just for the test teeest EntityManagerFactory emfactory =
-		 * Persistence.createEntityManagerFactory("wws-2-jpa"); EntityManager
-		 * entitymanager = emfactory.createEntityManager();
-		 * entitymanager.getTransaction().begin(); // bliubb
-		 * 
-		 * TKunde kunde = new TKunde(); kunde.setCustomerId(5);
-		 * kunde.setCustomermatchcode("blubb"); kunde.setFirstName("Hugo");
-		 * kunde.setLastName("Hirsch"); entitymanager.persist(kunde);
-		 * entitymanager.getTransaction().commit();
-		 * 
-		 * entitymanager.close(); emfactory.close(); }
-		 */
-=======
 // under construction....
 /*
  * Just for the test
@@ -40,6 +24,6 @@ public class ArtikelAnlegen {
 
 		entitymanager.close();
 		emfactory.close();
->>>>>>> branch 'master' of https://github.com/telenair/WWS
 	}
+*/
 }

@@ -15,7 +15,6 @@
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
 			<property name="eclipselink.ddl-generation.output-mode" value="both"/>
 			<property name="eclipselink.logging.level" value="OFF"/>
-			<property name="javax.perstistence.jdbc.ssl" value="false"/>
 		</properties>
 	</persistence-unit>
 </persistence>
